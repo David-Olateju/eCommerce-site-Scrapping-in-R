@@ -127,6 +127,7 @@ After the successful manipulation of the data, it will be loaded into a DataFram
 
 
 And the final result is shown below:
+
 ![1](https://github.com/David-Olateju/eCommerce-site-Scrapping-in-R/assets/129637983/7575f2a6-929a-4178-8bfa-85bfbf45109c)
 
 

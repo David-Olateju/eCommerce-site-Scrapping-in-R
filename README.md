@@ -56,9 +56,9 @@ Here, Regular Expressions will be used together with the "stringr" package loade
 
 Regular Expressions used there were:
 
-1) (?= \\d) - this was used to "lookahead" of any occurrence of digits with a space behind them.
+1) (?= \\\d) - this was used to "lookahead" of any occurrence of digits with a space behind them.
 
-2) (\\d| |\\w)* - this was used to select all the whitespaces, zero or more(*)
+2) (\\\d| |\\\w)* - this was used to select all the whitespaces, zero or more(*)
 
 Combining both together, we have: "lookahead of any digit with a space behind, and select zero or more characters with spaces and digits behind them) and extract the strings"
 
@@ -70,7 +70,7 @@ Combining both together, we have: "lookahead of any digit with a space behind, a
 
 The Regular Expressions used:
 
-1) [\\d] - any digits
+1) [\\\d] - any digits
 
 2) (GB|gb|GB/) - any characters that match with "GB" or "gb" or "GB/"
 
@@ -99,9 +99,9 @@ Almost the same thing that was applied to extract the RAM above will the applied
 
 The digits will be extracted below. Here, I used Regular Expressions to extract the digits as it's more flexible.
 
-(\\d\\d) - 2 digits
+(\\\d\\\d) - 2 digits
 
-(\\d|\\d|\\d) - 3 digits
+(\\\d|\\\d|\\\d) - 3 digits
 
 The code will extract 2 or more digits in the output above.
 
@@ -113,7 +113,7 @@ The code will extract 2 or more digits in the output above.
 The code used::
 1) (?<= - | -): "lookabehind any occurence of 'whitespace hyphen whitespace ( - )' or 'whitespace hypen ( -)'"
 
-2) (\w| )* : select all the words or whiteaspaces.
+2) (\\\w| )* : select all the words or whiteaspaces.
 
 Combining them, "lookahead of any occurrence of any 'whitespace hyphen whitespace' or 'whitespace hyphen' and select all the words that come after them with or without whitespaces"
 

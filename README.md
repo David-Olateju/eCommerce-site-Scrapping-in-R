@@ -24,7 +24,7 @@ The link was read into the environment using "read_html()" function into the var
 
 The specific data elements we want on the page can be fetched by referring to their tag names.
 
-Here, "html_nodes" was used to fetched fetch the elements of the tag name specified, and "html_text2" converted them to texts.
+Here, "html_nodes" was used to fetch the elements of the tag specified, and "html_text2" converted them to texts.
 ![3](https://github.com/David-Olateju/eCommerce-site-Scrapping-in-R/assets/129637983/7083c221-172f-4d0a-bd91-a9fdc43b440b)
 
 
@@ -132,7 +132,7 @@ And the final result is shown below:
 
 
 ### THANKS FOR READING THROUGH.
-I hoope you've learned a thing or two. 
+I hope you've learnt a thing or two?
 
 
 

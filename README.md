@@ -32,11 +32,11 @@ The Original Prices of the products were gotten from the tag name. There was a p
 ![4](https://github.com/David-Olateju/eCommerce-site-Scrapping-in-R/assets/129637983/23148812-24cc-49fb-944d-b29877d43c3e)
 
 
-The discount price was gotten from its tag name as well.
+The discount price was gotten using its tag's name.
 ![5](https://github.com/David-Olateju/eCommerce-site-Scrapping-in-R/assets/129637983/0df49cd4-044e-46b9-a4ec-c5087450a76d)
 
 
-The discount rate was also gotten the same as well.
+The discount rate was also gotten the as well.
 ![6](https://github.com/David-Olateju/eCommerce-site-Scrapping-in-R/assets/129637983/1c2a8eba-2305-4fd2-ab51-1996b1690c34)
 
 
